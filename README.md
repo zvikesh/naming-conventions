@@ -14,3 +14,5 @@ Naming conventions used.
 | Development Objects                | Naming Convention | Length      |
 | :--------------------------------- | :---------------- | ----------: |
 | Global Class                       | ZVKS_CL_*         |             |
+| Structure Type                     | GTY/LTY_ST_*      |             |
+| Table Type                         | GTY/LTY_TT_*      |             |
