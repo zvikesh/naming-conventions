@@ -1,4 +1,4 @@
-# Maming Conventions
+# Naming Conventions
 Naming conventions used.
 
 | Artifact                           | Naming Convention | Length      |
