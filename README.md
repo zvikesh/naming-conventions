@@ -1,7 +1,7 @@
 # Naming Conventions
 Naming conventions used.
 
-| Artifact                           | Naming Convention | Length      |
+| DDIC Artifacts                     | Naming Convention | Length      |
 | :--------------------------------- | :---------------- | ----------: |
 | Namespace                          | ZVKS              |             |
 | Domain                             | ZVKS_DO_*         |             |
@@ -11,3 +11,6 @@ Naming conventions used.
 | Basic View (Restrictive)           | ZVKS_R_*          |             |
 | Interface View (Value Help)        | ZVKS_A_*_VH       |             |
 
+| Development Objects                | Naming Convention | Length      |
+| :--------------------------------- | :---------------- | ----------: |
+| Global Class                       | ZVKS_CL_*         |             |
