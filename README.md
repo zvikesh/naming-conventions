@@ -10,6 +10,13 @@ Naming conventions used.
 | Draft Database Table               | ZVKS_D_*          |             |
 | Basic View (Restrictive)           | ZVKS_R_*          |             |
 | Interface View (Value Help)        | ZVKS_A_*_VH       |             |
+| Consumption View (Read Only)       | ZVKS_C_*_R        |             |
+|                                    |                   |             |
+| Behaviour Definition               | ZVKS_C_*_R        |             |
+| Behaviour Implementation           | ZVKS_C_*_R        |             |
+| Service Definition                 | ZVKS_C_*_R        |             |
+| Service Binding                    | ZVKS_C_*_R        |             |
+| Consumption View (Read Only)       | ZVKS_C_*_R        |             |
 
 | Development Objects                | Naming Convention | Length      |
 | :--------------------------------- | :---------------- | ----------: |
