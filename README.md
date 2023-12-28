@@ -35,12 +35,12 @@ Naming conventions used.
 
 **Business Services**
 
-| Business Service Name                     | Naming Convention         | Length      |
-| :---------------------------------------- | :------------------------ | ----------: |
-| Service Definition                        | Same as Projection        |              |
-| Service Binding (OData V2)                | ZVKS_UI_*_<R/M/U>_O2_V(N) |             |
-| Service Binding (OData V4)                | ZVKS_UI_*_<R/M/U>_O4_V(N) |             |
-| Service Binding (Web API)                 | ZVKS_API_*_V(N)           |             |
+| Business Service Name                     | Naming Convention            | Length      |
+| :---------------------------------------- | :--------------------------- | ----------: |
+| Service Definition                        | ZVKS_SD_*_<Consumption View> |              |
+| Service Binding (OData V2)                | ZVKS_UI_*_<R/M/U>_O2_V(N)    |             |
+| Service Binding (OData V4)                | ZVKS_UI_*_<R/M/U>_O4_V(N)    |             |
+| Service Binding (Web API)                 | ZVKS_API_*_V(N)              |             |
 | Behaviour Definition                      | ZVKS_SD_*_R        |             |
 | Behaviour Implementation                  | ZVKS_SD_*_R        |             |
 
