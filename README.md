@@ -3,43 +3,43 @@ Naming conventions used.
 
 **DDIC Artifacts**
 
-| DDIC Artifacts                            | Naming Convention | Length      |
-| :---------------------------------------- | :---------------- | ----------: |
-| Namespace                                 | ZVKS              |             |
-| Domain                                    | ZVKS_DO_*         |             |
-| Data Element                              | ZVKS_DE_*         |             |
-| Persistent Database Table (Active)        | ZVKS_A_*          |             |
-| Draft Database Table                      | ZVKS_D_*          |             |
+| DDIC Artifacts                            | Naming Convention       | Length      |
+| :---------------------------------------- | :---------------------- | ----------: |
+| Namespace                                 | ZVKS                    |             |
+| Domain                                    | ZVKS_DO_DomainName      |             |
+| Data Element                              | ZVKS_DE_DataElementName |             |
+| Persistent Database Table (Active)        | ZVKS_A_TableName        |             |
+| Draft Database Table                      | ZVKS_D_TableName        |             |
 
 **Interface View**
  
-| View Type                                 | Naming Convention | Length      |
-| :---------------------------------------- | :---------------- | ----------: |
-| Basic View (Restrictive)                  | ZVKS_R_*          |             |
-| Composite View (Value Help)               | ZVKS_I_*_VH       |             |
-| Composite View (Trxn processing)          | ZVKS_I_*_TP       |             |
+| View Type                                 | Naming Convention  | Length      |
+| :---------------------------------------- | :----------------- | ----------: |
+| Basic View (Restrictive)                  | ZVKS_R_ViewName    |             |
+| Composite View (Value Help)               | ZVKS_I_ViewName_VH |             |
+| Composite View (Trxn processing)          | ZVKS_I_ViewName_TP |             |
 
 **Consumption View**
 
-| View Type                                 | Naming Convention | Length      |
-| :---------------------------------------- | :---------------- | ----------: |
-| Consumption View (Read Only)              | ZVKS_C_*_R        |             |
-| Projection View (TP Managed - Default)    | ZVKS_C_*_M        |             |
-| Projection View (TP Managed - Manager)    | ZVKS_C_*_M_MNG    |             |
-| Projection View (TP Managed - Approver)   | ZVKS_C_*_M_APR    |             |
-| Projection View (TP Managed - Analyst)    | ZVKS_C_*_M_ANA    |             |
-| Projection View (TP Unmanaged - Default)  | ZVKS_C_*_U        |             |
-| Projection View (TP Unmanaged - Manager)  | ZVKS_C_*_U_MNG    |             |
-| Projection View (TP Unmanaged - Approver) | ZVKS_C_*_U_APR    |             |
-| Projection View (TP Unmanaged - Analyst)  | ZVKS_C_*_U_ANA    |             |
+| View Type                                 | Naming Convention     | Length      |
+| :---------------------------------------- | :-------------------- | ----------: |
+| Consumption View (Read Only)              | ZVKS_C_ViewName_R     |             |
+| Projection View (TP Managed - Default)    | ZVKS_C_ViewName_M     |             |
+| Projection View (TP Managed - Manager)    | ZVKS_C_ViewName_M_MNG |             |
+| Projection View (TP Managed - Approver)   | ZVKS_C_ViewName_M_APR |             |
+| Projection View (TP Managed - Analyst)    | ZVKS_C_ViewName_M_ANA |             |
+| Projection View (TP Unmanaged - Default)  | ZVKS_C_ViewName_U     |             |
+| Projection View (TP Unmanaged - Manager)  | ZVKS_C_ViewName_U_MNG |             |
+| Projection View (TP Unmanaged - Approver) | ZVKS_C_ViewName_U_APR |             |
+| Projection View (TP Unmanaged - Analyst)  | ZVKS_C_ViewName_U_ANA |             |
 
 **Business Services**
 
-| Business Service Name                     | Naming Convention            | Length      |
-| :---------------------------------------- | :--------------------------- | ----------: |
-| Service Definition                        | ZVKS_SD_*_<Consumption View> |              |
-| Service Binding (OData V2)                | ZVKS_UI_*_<R/M/U>_O2_V(N)    |             |
-| Service Binding (OData V4)                | ZVKS_UI_*_<R/M/U>_O4_V(N)    |             |
+| Business Service Name                     | Naming Convention                  | Length      |
+| :---------------------------------------- | :--------------------------------- | ----------: |
+| Service Definition                        | ZVKS_SD_ViewName_ViewSuffix_(N)    |             |
+| Service Binding (OData V2)                | ZVKS_UI_ViewName_ViewSuffix_O2_(N) |             |
+| Service Binding (OData V4)                | ZVKS_UI_ViewName_ViewSuffix_O4_(N) |             |
 | Service Binding (Web API)                 | ZVKS_API_*_V(N)              |             |
 | Behaviour Definition                      | ZVKS_SD_*_R        |             |
 | Behaviour Implementation                  | ZVKS_SD_*_R        |             |
