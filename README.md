@@ -33,6 +33,12 @@ Naming conventions used.
 | Projection View (TP Unmanaged - Approver) | ZVKS_C_ViewName_U_APR |             |
 | Projection View (TP Unmanaged - Analyst)  | ZVKS_C_ViewName_U_ANA |             |
 
+**Annotation**
+| View Type                                 | Naming Convention     | Length      |
+| :---------------------------------------- | :-------------------- | ----------: |
+| Facet - id                                | idIdentifier          |             |
+| Face - targetQualifier                    | tqIdentifier          |             |
+
 **Business Services**
 
 | Business Service Name                     | Naming Convention                  | Length      |
