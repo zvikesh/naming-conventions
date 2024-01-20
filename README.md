@@ -1,5 +1,4 @@
 # Naming Conventions
-Naming conventions used.
 
 **DDIC Artifacts**
 
