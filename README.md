@@ -1,5 +1,7 @@
 # Naming Conventions
 
+https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8/8a8cee943ef944fe8936f4cc60ba9bc1.html
+
 **DDIC Artifacts**
 
 | DDIC Artifacts                            | Naming Convention       | Length      |
