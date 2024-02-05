@@ -4,18 +4,19 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 
 **DDIC Artifacts**
 
-| DDIC Artifacts                            | Naming Convention       | Length      |
-| :---------------------------------------- | :---------------------- | ----------: |
-| Namespace                                 | ZVKS                    |             |
-| Domain                                    | ZVKS_DO_DomainName      |             |
-| Data Element                              | ZVKS_DE_DataElementName |             |
-| Persistent Database Table (Active)        | ZVKS_A_TableName        |             |
-| Draft Database Table                      | ZVKS_D_TableName        |             |
+| DDIC Artifacts                            | Naming Convention         | Length      |
+| :---------------------------------------- | :----------------------   | ----------: |
+| Namespace                                 | ZVKS                      |             |
+| Domain                                    | ZVKS_DO_DOMAIN_NAME       |             |
+| Data Element                              | ZVKS_DE_DATA_ELEMENT_NAME |             |
+| Persistent Database Table (Active)        | ZVKS_A_TABLE_NAME         |             |
+| Draft Database Table                      | ZVKS_D_TABLE_NAME         |             |
 
 **Interface View**
  
 | View Type                                 | Naming Convention  | Length      |
 | :---------------------------------------- | :----------------- | ----------: |
+| Namespace                                 | ZVKS               |             |
 | Basic View (Restrictive)                  | ZVKS_R_ViewName    |             |
 | Composite View (Value Help)               | ZVKS_I_ViewName_VH |             |
 | Composite View (Trxn processing)          | ZVKS_I_ViewName_TP |             |
@@ -24,6 +25,7 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 
 | View Type                                 | Naming Convention     | Length      |
 | :---------------------------------------- | :-------------------- | ----------: |
+| Namespace                                 | ZVKS                  |             |
 | Consumption View (Read Only)              | ZVKS_C_ViewName_R     |             |
 | Projection View (TP Managed - Default)    | ZVKS_C_ViewName_M     |             |
 | Projection View (TP Managed - Manager)    | ZVKS_C_ViewName_M_MNG |             |
@@ -34,7 +36,23 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 | Projection View (TP Unmanaged - Approver) | ZVKS_C_ViewName_U_APR |             |
 | Projection View (TP Unmanaged - Analyst)  | ZVKS_C_ViewName_U_ANA |             |
 
-**Annotation**
+**Auxiliary View**
+
+| View Type                                 | Naming Convention              | Length      |
+| :---------------------------------------- | :------------------------------| ----------: |
+| Namespace                                 | ZVKS                           |             |
+| Extension View                            | ZVKS_X_ReferenceViewName       |             |
+| Metadata Extension View (MDE)             | ZVKS_E_ReferenceViewName       |             |
+
+**Other Objects**
+
+| Object                                 | Naming Convention              | Length      |
+| :---------------------------------------- | :-------------------------- | ----------: |
+| Namespace                                 | ZVKS                        |             |
+| Knowledge Transfer Object (KTD)           | ZVKS_K_ReferenceObjectName  |             |
+
+**Annotations**
+
 | View Type                                 | Naming Convention     | Length      |
 | :---------------------------------------- | :-------------------- | ----------: |
 | Facet - id                                | idIdentifier          |             |
@@ -47,9 +65,9 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 | Service Definition                        | ZVKS_SD_ViewName_ViewSuffix_(N)    |             |
 | Service Binding (OData V2)                | ZVKS_UI_ViewName_ViewSuffix_O2_(N) |             |
 | Service Binding (OData V4)                | ZVKS_UI_ViewName_ViewSuffix_O4_(N) |             |
-| Service Binding (Web API)                 | ZVKS_API_*_V(N)              |             |
-| Behaviour Definition                      | ZVKS_SD_*_R        |             |
-| Behaviour Implementation                  | ZVKS_SD_*_R        |             |
+| Service Binding (Web API)                 | ZVKS_API_*_V(N)                    |             |
+| Behaviour Definition                      | ZVKS_SD_*_R                        |             |
+| Behaviour Implementation                  | ZVKS_SD_*_R                        |             |
 
 | Development Objects                | Naming Convention | Length      |
 | :--------------------------------- | :---------------- | ----------: |
