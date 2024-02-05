@@ -20,7 +20,7 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 | Basic View (Restrictive)                  | ZVKS_R_ViewName    |             |
 | Composite View (Addional Logic)           | ZVKS_I_ViewName    |             |
 | Composite View (Value Help)               | ZVKS_I_ViewName_VH |             |
-| Composite View (Value Help Text)          | ZVKS_R_ViewName_T  |             |
+| Composite View (Text)                     | ZVKS_I_ViewName_T  |             |
 | Composite View (Trxn processing)          | ZVKS_I_ViewName_TP |             |
 
 **Consumption View**
