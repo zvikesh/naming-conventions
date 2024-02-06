@@ -62,14 +62,14 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 
 **Business Services**
 
-| Business Service Name                     | Naming Convention                  | Length      |
-| :---------------------------------------- | :--------------------------------- | ----------: |
-| Service Definition                        | ZVKS_SD_ViewName_ViewSuffix_(N)    |             |
-| Service Binding (OData V2)                | ZVKS_UI_ViewName_ViewSuffix_O2_(N) |             |
-| Service Binding (OData V4)                | ZVKS_UI_ViewName_ViewSuffix_O4_(N) |             |
-| Service Binding (Web API)                 | ZVKS_API_*_V(N)                    |             |
-| Behaviour Definition                      | ZVKS_SD_*_R                        |             |
-| Behaviour Implementation                  | ZVKS_SD_*_R                        |             |
+| Business Service Name                     | Naming Convention           | Length      |
+| :---------------------------------------- | :-------------------------- | ----------: |
+| Behaviour Definition                      | -                           |             |
+| Behaviour Implementation Class            | ZVKS_BP_ViewName            |             |
+| Service Definition                        | ZVKS_SD_ServiceName_(N)     |             |
+| Service Binding (OData V2)                | ZVKS_UI_ServiceName_O2_(N)  |             |
+| Service Binding (OData V4)                | ZVKS_UI_ServiceName_O4_(N)  |             |
+| Service Binding (Web API)                 | ZVKS_API_ServiceName_V(N)   |             |
 
 | Development Objects                | Naming Convention | Length      |
 | :--------------------------------- | :---------------- | ----------: |
