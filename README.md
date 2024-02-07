@@ -66,10 +66,10 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 | :---------------------------------------- | :-------------------------- | ----------: |
 | Behaviour Definition                      | -                           |             |
 | Behaviour Implementation Class            | ZVKS_BP_ViewName            |             |
-| Service Definition                        | ZVKS_SD_ServiceName_(N)     |             |
-| Service Binding (OData V2)                | ZVKS_UI_ServiceName_O2_(N)  |             |
-| Service Binding (OData V4)                | ZVKS_UI_ServiceName_O4_(N)  |             |
-| Service Binding (Web API)                 | ZVKS_API_ServiceName_V(N)   |             |
+| Service Definition                        | ZVKS_SD_SERVICE_NAME_(N)    |             |
+| Service Binding (OData V2)                | ZVKS_UI_SERVICE_NAME_O2_(N) |             |
+| Service Binding (OData V4)                | ZVKS_UI_SERVICE_NAME_O4_(N) |             |
+| Service Binding (Web API)                 | ZVKS_API_SERVICE_NAME_V(N)  |             |
 
 | Development Objects                | Naming Convention | Length      |
 | :--------------------------------- | :---------------- | ----------: |
