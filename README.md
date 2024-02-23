@@ -1,7 +1,5 @@
 # Naming Conventions
 
-https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8/8a8cee943ef944fe8936f4cc60ba9bc1.html
-
 **DDIC Artifacts**
 
 | DDIC Artifacts                            | Naming Convention         | Length      |
@@ -76,3 +74,9 @@ https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8
 | Global Class                       | ZVKS_CL_*         |             |
 | Structure Type                     | GTY/LTY_ST_*      |             |
 | Table Type                         | GTY/LTY_TT_*      |             |
+
+# References
+
+[Virtual Data Model and CDS Views](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ee6ff9b281d8448f96b4fe6c89f2bdc8/8a8cee943ef944fe8936f4cc60ba9bc1.html)
+
+[RAP > Naming Conventions for Development Objects](https://help.sap.com/docs/abap-cloud/abap-rap/naming-conventions-for-development-objects?version=sap_btp)
